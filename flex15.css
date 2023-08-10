@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.b-red {
+    background-color: #f87171;
+}
+
+.b-o {
+    background-color: #fb923c;
+}
+
+.b-a {
+    background-color: #fbbf24;
+}
+
+.b-y {
+    background-color: #facc15;
+}
+
+.b-lime {
+    background-color: #a3e635;
+}
+
+.b-g {
+    background-color: #4ade80;
+}
+
+.b-e {
+    background-color: #34d399;
+}
+
+.b-c {
+    background-color: #22d3ee;
+}
+
+.b-l {
+    background-color: #38bdf8;
+}
+
+.b-b {
+    background-color: #60a5fa;
+}
+
+.b-i {
+    background-color: #818cf8;
+}
+
+.b-purple {
+    background-color: #c084fc;
+}
+
+.b-f {
+    background-color: #e879f9;
+}
+
+.b-p {
+    background-color: #f472b6;
+}
+
+.b-r {
+    background-color: #fb7185;
+}
+
+.code {
+    font-family: "roboto";
+    color: white;
+    font-size: 15px;
+}
+
+.heading {
+    font-family: "roboto";
+    color: #011e3f;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.name {
+    font-family: "roboto";
+    color: white;
+    font-size: 15px;
+}
+
+.bgcontainer {
+    padding: 10px;
+}
